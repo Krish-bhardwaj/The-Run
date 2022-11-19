@@ -1,0 +1,70 @@
+.topbar{
+    position:sticky;
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    color:black;
+    align-items: center;
+}
+.back {
+  width: 29%;
+  padding: 11px 12px 10px 12px;
+  margin-right: 74vw;
+  font-size: 60px;
+}
+.user{
+    padding-right:20px;
+    position: relative;
+  display: inline-block;
+}
+.user img {
+  width: 43px;
+  /* border: 0 solid black; */
+  /* border-radius: 50%; */
+  cursor: pointer;
+}
+.coins{
+    padding-right:20px;
+}
+.coins h2 {
+  font-size: 40px;
+}
+  
+  .dropdown-content {
+       display: none;
+       background-color: black;
+       min-width: 80px;
+       box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+       padding: 12px;
+       position: absolute;
+       z-index: 1;
+       right: 32%;
+       top: 90%;
+       color: white;
+       text-align: center;
+  }
+  .dropdown-content li a{
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    font-size:35px;
+    display: block;
+
+  }
+  .dropdown-content li:hover{
+    background: white;
+    color: black;    
+    font-size:35px;
+
+  }
+  .dropdown-content li{
+    border-bottom: 1px grey solid;    
+  }
+  .dropdown-content li a:hover{
+    color: black;  
+    /* padding: 12px;   */
+
+  }
+  .user:hover .dropdown-content {
+    display: block;
+    list-style: none;
+  }

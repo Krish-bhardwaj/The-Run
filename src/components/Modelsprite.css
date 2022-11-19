@@ -1,0 +1,106 @@
+.sub-progress button {
+    width: 60px;
+    padding: 0;
+    font-size: 43px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 47%;
+    /* margin-left: 0px; */
+}
+  .left-div{
+    display: flex; 
+      margin-top: 10%;
+  }
+  .booster {
+    margin-top: 5%;
+    height: 80%;
+}
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: -11px;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+  .progress {
+	background-color: white;
+	/* border-radius: 20px; */
+	position: relative;
+	margin: 21px 0 0 0px;
+	height: 30px;
+	width: 300px;
+    font-size: 30px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, black,#404040);
+	box-shadow: 0 3px 3px -5px #363636, 0 2px 5px #2e2e2e;
+	border-radius: 0;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0; 
+	transition: 1s ease 0.3s;
+}
+.progresses {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 12%; */
+}
+.sub-progress{
+    display:flex;
+    flex-direction: row;
+}
+.progresses h4{
+    color:white;
+    font-size: 17px;
+    letter-spacing:1px;
+    
+}
+.speed{
+    margin-right:18px;
+
+}
+.health{
+    margin-right:10px;
+
+}
+.jump{
+    margin-right:22px;
+
+}
+
+.modalContainer .body {
+    display:initial;
+}
+.progresses h4 {
+    color: black!important;
+    font-size: 17px!important;
+    letter-spacing: 1px!important;
+}
+.modalContainer .body {
+    display: initial;
+    margin-left: -8%;
+}
+.modalContainer {
+    width: 50vw;
+    height: 60vh;
+    border-radius: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.rightdiv {
+    display: flex;
+    padding-top: 0;
+    padding-right: 18px;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}

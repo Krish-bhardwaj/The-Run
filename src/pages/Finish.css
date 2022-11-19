@@ -1,0 +1,49 @@
+.finish{
+    display:flex;
+    flex-direction:column;
+}
+.finish-head h1{
+    color:black;
+    font-size:18vh;
+    margin: 6% 0 10% 0;
+    display:flex;
+    justify-content:center;
+    letter-spacing: 10px;
+    animation: blinker 1.5s linear infinite;
+}
+.scoreboard{
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 28%);
+    display:flex;
+    text-align:center;
+    flex-direction:column;
+position: relative;
+    width:30%;
+    left:35%;
+    padding: 13px;
+}
+.scoreboard p {
+    font-weight: bold;
+    font-size: 47px;
+    letter-spacing: 2px;
+    margin: 10px 0 10px 0;
+}
+.twobuttons{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: -43px;
+    margin-bottom: 10px;
+}
+.restart{
+    margin: -10px 10px 40px 10px;
+    padding: 8px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0.1;
+    }
+  }

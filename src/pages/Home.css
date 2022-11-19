@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: 'VT323';
+    /* font-family: 'Press Start 2P', cursive; */
+}
+.main{
+    text-align:center;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button {
+    font-family: 'VT323', monospace;
+    width: 70%;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 5px;
+    /* border-radius: 78px; */
+    border: 1px solid black;
+    background: #ffffff	;
+    color: black;
+}
+button:hover{
+    background: black;
+    color: white;
+}
+.main h1 {
+    margin: -100px 0 100px 0;
+    font-size: 23vh;
+}
+.main h2 {
+    font-size: 30px;
+    margin: 70px 0 0 0;
+}
+.dino {
+    width: 276px;
+    margin: -90px 0 50px 0;
+}
+.blink-soft {
+    animation: blinker 1.5s linear infinite;
+  }
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

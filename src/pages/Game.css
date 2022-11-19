@@ -1,0 +1,43 @@
+.game-loading{
+    display:flex;
+    flex-direction:column;
+}
+.counter h1{
+    
+    margin-top: 15%;
+
+    color:black;
+    font-size:27vh;
+    display:flex;
+    justify-content:center;
+}
+.powerups-bottombar{
+    background: black;
+    display:flex;
+    justify-content:center;
+    width:50%;
+    position:fixed;
+    bottom:0;
+    left:25%;
+}
+.powerups-bottombar p{
+    margin-right:20px;
+    padding:10px;
+    font-size:45px;
+    font-weight:bold;
+    border:2px solid black;
+    color:white;
+}
+.countervalue{
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #bfbfbf, 0 0 40px #bfbfbf, 0 0 50px #bfbfbf, 0 0 60px #bfbfbf, 0 0 70px #bfbfbf;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #bfbfbf, 0 0 40px #bfbfbf, 0 0 50px #bfbfbf, 0 0 60px #bfbfbf, 0 0 70px #bfbfbf, 0 0 80px #bfbfbf;
+    }
+  }
